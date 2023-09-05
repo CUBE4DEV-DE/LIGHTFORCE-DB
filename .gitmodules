@@ -1,0 +1,12 @@
+[submodule "CoreStorage"]
+	path = CoreStorage
+	url = https://github.com/CUBE4DEV-DE/LIGHTFORCE-DB-CoreStorage
+[submodule "CoreProcess"]
+	path = CoreProcess
+	url = https://github.com/CUBE4DEV-DE/LIGHTFORCE-DB-CoreProcess
+[submodule "CoreNetwork"]
+	path = CoreNetwork
+	url = https://github.com/CUBE4DEV-DE/LIGHTFORCE-DB-CoreNetwork
+[submodule "CoreBase"]
+	path = CoreBase
+	url = https://github.com/CUBE4DEV-DE/LIGHTFORCE-DB-CoreBase
