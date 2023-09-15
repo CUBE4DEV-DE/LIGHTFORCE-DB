@@ -30,10 +30,12 @@ To integrate the four modules into your own project in Visual Studio, follow the
    - Click "OK" to save the changes.
 
 4. **Linking the Libraries**:
-   - Still in the Properties window, navigate to "Configuration Properties" then "Linker" followed by "General".
-   - In the "Additional Library Directories" field, add the path to the "Core" subfolder where the modules' library files (.lib) are located.
-   - Now navigate to "Linker" then "Input" and in the "Additional Dependencies" field, list down the names of the library files (.lib) of each module separated by a semicolon.
-   
+	- First, make sure the libraries are part of a project in your solution. If not, create separate projects for each library in the same solution.
+	- Right-click on your main project in the Solution Explorer and select "Add" followed by "Reference...".
+	- In the Reference Manager window, go to "Projects" and you will see a list of all the projects in your solution. Find the projects that correspond to the libraries you have in your "Core" folder.
+	- Check the boxes next to those projects to add them as references to your main project.
+	- Click "OK" to save your changes.
+
 5. **Verify and Test**:
    - Before building your project, ensure that the libraries and include paths are correctly set up by verifying the paths entered in the previous steps.
    - Now build and run your project to test if the integration of the modules was successful.
