@@ -1,3 +1,5 @@
+LIGHTFORCE DB
+-------------
 The LIGHTFORCE DB is a library designed for storing C++ objects both in memory and persistently in a JSON database. It consists of four modules, each of which can be integrated into your own application as a DLL library. The CoreStorage module is responsible for file access, acting as a tool to manage the storage and retrieval of files.
 
 At the heart of the LIGHTFORCE DB is the CoreBase module, which manages data. This central component of the database ensures that data is organized and handled efficiently, facilitating smooth operations and data transactions within the application.
@@ -7,3 +9,33 @@ To manage general processes within the application, the CoreProcess module is ut
 Lastly, the CoreNetwork module serves to represent elementary web client architectures. It allows for the easy creation and management of web client structures, providing essential functionalities to facilitate network communication and interactions within the web space.
 
 Together, these modules work in harmony to provide a robust and efficient database system capable of handling C++ objects with a high degree of efficiency and effectiveness.
+
+Installation
+------------
+To integrate the four modules into your own project in Visual Studio, follow the steps outlined below. These instructions specifically detail how to bring together the libraries into a subfolder named "Core" and set the correct include paths in the project settings:
+
+1. **Prepare the Modules**:
+   - First, gather all the required modules: CoreStorage, CoreBase, CoreProcess, and CoreNetwork.
+   - Create a subfolder named "Core" in your project directory where you will place all the aforementioned modules.
+
+2. **Adding the Libraries to Your Project**:
+   - In Visual Studio, open your project and right-click on the project's name in the Solution Explorer.
+   - Choose "Add" and then "Existing Item".
+   - Navigate to the "Core" subfolder and select the library files (DLL) of each module to add them to your project.
+
+3. **Setting Up Include Paths**:
+   - Right-click on your project in the Solution Explorer again and select "Properties".
+   - In the Properties window, navigate to "Configuration Properties" then "VC++ Directories".
+   - In the "Include Directories" field, add the path to the "Core" subfolder where the modules' header files are located. Make sure to separate different paths with a semicolon.
+   - Click "OK" to save the changes.
+
+4. **Linking the Libraries**:
+   - Still in the Properties window, navigate to "Configuration Properties" then "Linker" followed by "General".
+   - In the "Additional Library Directories" field, add the path to the "Core" subfolder where the modules' library files (.lib) are located.
+   - Now navigate to "Linker" then "Input" and in the "Additional Dependencies" field, list down the names of the library files (.lib) of each module separated by a semicolon.
+   
+5. **Verify and Test**:
+   - Before building your project, ensure that the libraries and include paths are correctly set up by verifying the paths entered in the previous steps.
+   - Now build and run your project to test if the integration of the modules was successful.
+
+By following these steps, you should successfully integrate the four modules into your Visual Studio project with the libraries consolidated in the "Core" subfolder and the correct include paths set in the project settings. Remember to always double-check the paths and library names to avoid any integration issues.
