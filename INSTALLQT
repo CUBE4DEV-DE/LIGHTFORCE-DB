@@ -1,0 +1,61 @@
+To install Qt 6.5.2 on Windows with Visual Studio, follow these steps:
+
+### Step 1: Prerequisites
+
+1. **Download and Install Visual Studio**
+   
+   Before you start, make sure you have Visual Studio installed on your computer. You can download it from the [official website](https://visualstudio.microsoft.com/). Ensure to install the Desktop development with C++ workload to have the necessary tools for Qt development.
+
+2. **Download and Install CMake**
+   
+   Qt 6 requires CMake for building projects. Download and install the latest version of CMake from the [official website](https://cmake.org/download/).
+
+### Step 2: Install Qt 6.5.2
+
+1. **Download Qt 6.5.2 Installer**
+   
+   Download the Qt 6.5.2 installer from the [Qt official website](https://www.qt.io/download).
+
+2. **Run the Installer**
+   
+   Launch the downloaded installer and follow the instructions to install Qt on your system. During the installation process, make sure to select the components for the Windows platform and the version of Visual Studio you are using.
+
+### Step 3: Setup Environment
+
+1. **Setting up Environment Variables**
+   
+   You might need to set up some environment variables to facilitate the integration with Visual Studio. You can find these settings in the Qt installation directory.
+
+2. **Integrating with Visual Studio**
+
+   You can integrate Qt with Visual Studio using the Qt VS Tools extension. Download and install the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2019).
+
+### Step 4: Creating a Qt Project in Visual Studio
+
+1. **Launch Visual Studio**
+   
+   Open Visual Studio and create a new project.
+
+2. **Select Qt Project Template**
+   
+   Choose the Qt project template from the list of available templates to create a new Qt project.
+
+3. **Configure Project Settings**
+   
+   Configure your project settings, including the Qt version and kit settings from the project properties.
+
+4. **Building and Running the Project**
+   
+   Once the project is set up, build and run the project using the build and run commands in Visual Studio.
+
+### Step 5: Testing the Installation
+
+1. **Create a Sample Qt Application**
+   
+   To test the installation, create a sample Qt application and try to build and run it in Visual Studio.
+
+2. **Debugging the Application**
+   
+   You can also test debugging features to ensure that the integration is working correctly.
+
+By following these steps, you should have a working setup of Qt 6.5.2 with Visual Studio on your Windows machine. Please note that these instructions are generalized and the actual steps and UI elements might vary slightly based on the exact versions of the tools and software you are using. Always refer to the official documentation for the most accurate and up-to-date information.
