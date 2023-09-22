@@ -1,6 +1,41 @@
 LIGHTFORCE DB
+=============
+
+Summary
+-------
 
 C++/JSON Object Storage:
+
+- Dual storage: active memory and JSON database.
+Structured data storage format.
+Modular Design:
+
+- Four distinct, focused modules.
+DLL library integration capability.
+Efficient Data Management:
+
+- Centralized data management via CoreBase.
+Smooth operations and data transactions.
+Process Management:
+
+- Streamlined application processes with CoreProcess.
+Improved operational stability.
+Web Client Architecture:
+
+- Simplified web client creation.
+Effective network communication foundation.
+Integrated System:
+
+- Unified module collaboration.
+Specifically tailored for C++ objects.
+Seamless Integration with Visual Studio:
+
+- Step-by-step integration guide.
+Organized "Core" subfolder structure.
+
+
+C++/JSON Object Storage:
+------------------------
 
 Dual Storage Mechanism: The LIGHTFORCE DB stands out due to its capability to store C++ objects in two distinct ways: in active memory for immediate access and persistently within a JSON database for longer-term storage. Such dual storage mechanisms offer developers unparalleled flexibility, allowing them to choose the storage mode that best fits their immediate needs.
 Structured Storage: Using a JSON database ensures that the data retains a structured format, making it easier to retrieve, modify, and manage.
