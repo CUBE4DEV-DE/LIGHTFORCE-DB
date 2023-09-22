@@ -1,4 +1,36 @@
- GNU GENERAL PUBLIC LICENSE
+
+
+LICENSING
+---------
+You are granted permission to utilize the software libraries LIGHTFORCE DB, 
+NITRO MVC, and HEXSPARK for non-commercial products under the terms of the GPL
+v3 license. If you wish to use these software libraries for commercial endeavors,
+there are specific licensing conditions that you must adhere to. Specifically, 
+for each developer and up to a maximum of 10 domains, an appropriate commercial 
+license must be purchased. We understand that there are unique instances, 
+especially when it comes to local installations on embedded hardware, such as
+within machinery, vehicles, or other specialized equipment. For such
+circumstances, we kindly request you to engage in a direct conversation
+with us so that we can cater to your needs more effectively and provide
+tailored solutions.
+
+We are genuinely excited about the possibility of our software libraries
+being a part of your project. We believe in fostering a robust community
+and collaborative ecosystem around our products. In that light, we would
+truly appreciate it if you could inform us about where and how you are 
+implementing our libraries. It would be even more wonderful if you are 
+open to letting us showcase your application as a reference on our website. 
+We believe that such collaborations not only foster innovation but also 
+help other developers gain inspiration and insights. Your feedback
+and endorsements, if any, would go a long way in enhancing the value 
+proposition of our products in the broader developer community. We 
+eagerly await hearing from you and are more than willing to support and 
+celebrate your endeavors using our libraries.
+
+
+
+---------------------------------------------------------------------------
+                    GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
